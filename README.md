@@ -5,6 +5,8 @@ Libraries:
 Devise Ruby Authentication 
 https://github.com/plataformatec/devise
 
+The UI is created using bootstrap and SASS
 
+The app is hosted on heroku 
 
-The ui is created using bootstrap and SASS
+you can view it here http://jimterest.jamesyorston.co.uk
