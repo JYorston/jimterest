@@ -12,5 +12,6 @@ https://github.com/thoughtbot/paperclip
 The UI is created using bootstrap and SASS
 
 The app is hosted on heroku 
+Images are stored on Amazon S3
 
-you can view it here http://jimterest.jamesyorston.co.uk
+You can view it here http://jimterest.jamesyorston.co.uk
