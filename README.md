@@ -5,6 +5,10 @@ Libraries:
 Devise Ruby Authentication 
 https://github.com/plataformatec/devise
 
+Paperclip image file attachment library
+https://github.com/thoughtbot/paperclip
+
+
 The UI is created using bootstrap and SASS
 
 The app is hosted on heroku 
