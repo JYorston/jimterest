@@ -14,8 +14,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'devise', '~> 4.3'
 gem 'paperclip', '~> 5.1'
 gem "aws-sdk", ">= 2.0"
-
-
+gem 'jquery-turbolinks'
+gem 'masonry-rails', '~> 0.2.4'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

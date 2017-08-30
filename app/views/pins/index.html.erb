@@ -1,18 +1,21 @@
- <p id="notice"><%= notice %></p>
+<p id="notice"><%= notice %></p>
 
 
-
-
+<div id="pins">
     <% @pins.each do |pin| %>
-        <%= link_to image_tag(pin.image.url(:medium)), pin %><br/>
-        <%= pin.description %></br>
-        <%= pin.user.name if pin.user %> <br/>
-
-      <% if pin.user == current_user %>
-        <%= link_to 'Edit', edit_pin_path(pin) %>
-        <%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %>
-      <% end %>
-      
+        <div class="box">
+            <%= link_to image_tag(pin.image.url(:medium)), pin %><br/>
+            <%= pin.description %><br/>
+            <%= pin.user.name if pin.user %> <br/>
+            
+            <% if pin.user == current_user %>
+                <%= link_to 'Edit', edit_pin_path(pin) %>
+                <%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %><br/>
+            <% end %>
+            <br/>
     <% end %>
+        </div>
+
+</div>
 <br>
 
