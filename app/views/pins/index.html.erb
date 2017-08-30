@@ -1,4 +1,4 @@
-<% render 'home/jumbo' unless user_signed_in? %>
+<%= render 'home/jumbo' unless user_signed_in? %>
 
 <div id="pins" class="transitions-enabled">
     <% @pins.each do |pin| %>
@@ -22,3 +22,6 @@
 </div>
 
 
+ <div class="center">
+   <%= will_paginate @posts, renderer: BootstrapPagination::Rails %>
+ </div>
