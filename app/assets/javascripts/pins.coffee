@@ -2,16 +2,18 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-var ready;
-ready = function() {
-   $('#pins').imagesLoaded ->
+ready = ->
+
+     $('#pins').imagesLoaded ->
      $('#pins').masonry
        itemSelector: '.box'
        isFitWidth: true
        
 
-};
+
+$(document).ready(ready)
+$(document).on('page:load', ready)
 
 
-$(document).ready(ready);
-$(document).on('page:load', ready);
+       
+
