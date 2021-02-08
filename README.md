@@ -33,6 +33,6 @@ Jimterest uses a number of open source projects to work properly:
    [Will_Paginate]: <https://github.com/mislav/will_paginate>
    [Heroku]: <https://heroku.comp>
    [AWS S3]: <https://aws.amazon.com/s3/>
-   [Jimterest]: <http://jimterest.jamesyorston.co.uk>
+   [Jimterest]: <https://jimterest.herokuapp.com>
    [JamesYorston.co.uk]: <http://jamesyorston.co.uk>
 
